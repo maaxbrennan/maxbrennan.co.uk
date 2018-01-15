@@ -1,0 +1,102 @@
+<style type="text/css">
+	
+	body {
+         font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 10px;
+		color: #202020;
+		background: #FFFFFF;
+		margin: 40px 0 20px 0;
+		padding: 0;
+		display:inline;
+	}
+	
+					
+	#content {
+		width: 770px;
+		margin: 0 auto; 
+	}
+		
+		#content #header {
+
+		}
+		
+			#content #header #top {
+				border-bottom: 1px solid #202020;
+				padding: 0 0 10px 0;
+				position: relative;
+			}
+		
+			#content #header #top a.title {
+				width: 688px;
+				color: #202020;
+				font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+				font-size: 72px;
+				font-weight: bold;
+				text-decoration: none;
+				margin: 0;
+				}
+				
+			#content #header #top .buttons {
+				position: absolute;
+				bottom: 24px;
+				right: 0;
+				}
+			
+			#content #header #top .buttons a {
+				color: #FFFFFF;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				background: #D00000;
+				}
+				
+			#content #header #bottom {
+				font-size: 20px;
+				padding: 9px 0;
+				outline: #000 solid thin ;
+				padding-left: 50px;
+				padding-right: 50px;
+				height: 315px;
+				}
+			
+			#content #header #bottom a {
+				color: #447777;
+				font-weight: bold;
+				text-decoration: none;
+				text-indent: 50px;
+          			}
+
+			#content #footer {
+				color: #8E8E8E;
+				line-height: 2em;
+				text-align: center;
+				margin: 8px 0 0 0;
+				/* overflow: hidden; */
+				outline: #000 solid thin;
+				border-bottom: 3px solid #202020;
+				}
+    
+			#leftdiv {
+			float: left;
+ 			width: 290px;
+ 			overflow: hidden;
+				}
+	
+			#rightinfo {
+			overflow: hidden;
+				}
+	
+			.address {
+				color:blue;
+				margin-left:1%;
+				}
+			#contact {
+				font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-decoration: none;
+				
+			#aligncontact {
+				text-align:center;
+				}
+	</style>
