@@ -171,11 +171,31 @@ body {
   color: blue;
 }
 	
-#crypto
+#crypto {
   font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-#crypto:hover, crypto:active {content: attr(data-hover) ;}
+a {
+    text-decoration:none;
+}
+
+
+.label.success {
+    background-color: #46a546;
+}
+
+.item a p.new-label span{
+  position: relative;
+  content: 'CRYPTOCURRENCY BROKER'
+}
+	
+.item:hover a p.new-label span{
+  display: none;
+}
+	
+.item:hover a p.new-label:after{
+  content: 'XXX';
+}
 	
 
 	
@@ -212,7 +232,15 @@ body {
 		<div id="leftdiv2">
 			<div id="contact2">MAX BRENNAN</div>
 			<div id="titlename"> 
-				<div id="crypto" data-hover="£11207.11 TO CLIENTS">CRYPTOCURRENCY BROKER</div>
+				
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - --->
+				<div id="crypto">CRYPTOCURRENCY BROKER</div>
+					<a href="">
+						<p class="label success new-label"><span class="align">CRYPTOCURRECY BROKER</span></p>
+					</a>
+				
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - --->
+				
 				<br>
 			WEB DESIGNER
 				<br>
