@@ -5,7 +5,7 @@ body {
 	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	 font-size: 10px;
 	 color: #160501;
-    	 background: linear-gradient(#0198E1, #82CFFD);
+  	 background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
 	 margin: 40px 0 20px 0;
 	 padding: 0;
 	 display: inline;
@@ -25,7 +25,6 @@ body {
 	 padding: 15px 0 15px 0;
  	 position: -webkit-sticky;
     	 position: sticky;
-	 background-color: #0198E1;
     	 top: 0;
 	}
   
