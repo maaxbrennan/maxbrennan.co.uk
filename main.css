@@ -5,7 +5,7 @@ body {
 	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	 font-size: 10px;
 	 color: #160501;
-	 background: #FFDECF;
+	 background: #FFF5EA;
 	 margin: 40px 0 20px 0;
 	 padding: 0;
 	 display: inline;
@@ -25,7 +25,7 @@ body {
 	 padding: 15px 0 15px 0;
  	 position: -webkit-sticky;
     	 position: sticky;
-	 background-color: #FFDECF;
+	 background-color: #FFF5EA;
     	 top: 0;
 	}
   
@@ -84,7 +84,7 @@ body {
 	 border-bottom: 1px solid #202020;
 	 border-left: 1px solid #202020;
 	 border-right: 1px solid #202020;
-	 background-color: #FFF0E9;
+	 background-color: #FFFAF4;
 	}
 
 	#content #header #bottom a {
@@ -111,7 +111,8 @@ body {
 	}
 
 	#address {
-	 color: blue;
+	 color: #69B9FC;
+	 text-align: center;
 	}
 
 	#contact {
@@ -200,5 +201,18 @@ body {
 	 padding-bottom: 10px;
 	}		
 		
+	#mess {
+	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 font-size: 12px;
+	}
+	
+	#sendmoney {
+	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 font-size: 20px;
+	 font-weight: 500;
+	 text-decoration: none;
+	 width: 370px;
+	 padding-bottom: 3px;
+	}
 
   /* ------------------------------------------------------------------------------------- */
