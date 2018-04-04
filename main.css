@@ -1,0 +1,201 @@
+/* -------------------------------------------------------------------------------------- */
+
+body {
+	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 font-size: 10px;
+	 color: #160501;
+	 background: #FFFFFF;
+	 margin: 40px 0 20px 0;
+	 padding: 0;
+	 display: inline;
+	}
+  
+	#content {
+	 width: 770px;
+	 margin: 0 auto;
+	}
+  
+	#content #header {
+	   height: 1000px;
+	}
+  
+	#content #header #top {
+	 border-bottom: 1px solid #160501;
+	 padding: 15px 0 15px 0;
+ 	 position: -webkit-sticky; /* Safari */
+    	 position: sticky;
+	 background-color:white;
+    	 top: 0;
+	}
+  
+	#content #header #top a.title {
+	 width: 688px;
+	 color: #160501;
+	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 font-size: 72px;
+	 font-weight: bold;
+	 text-decoration: none;
+	 cursor: help;
+	 margin: 0;
+	}
+  
+	#content #header #top .buttons {
+	 position: absolute;
+	 bottom: 7.5px;
+	 right: 0;
+	 font-size: 10px;
+	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+  
+	#content #header #top .buttons a {
+	 color: #FFFFFF;
+	 font-weight: bold;
+	 text-transform: uppercase;
+	 text-decoration: none;
+	 background: #D00000;
+	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+	   
+	#content #header #top .buttons2 {
+	 bottom: 24px;
+	 right: 0;
+	 font-size: 10px;
+	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+  
+	#content #header #top .buttons2 a {
+	 color: #FFFFFF;
+	 top: 60px;
+	 font-weight: bold;
+	 text-transform: uppercase;
+	 text-decoration: none;
+	 background: #00d068;
+	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+	
+  #content #header #bottom {
+	 font-size: 20px;
+	 padding: 9px 0;
+	 padding-left: 50px;
+	 padding-right: 50px;
+	 padding-bottom: 35px;
+	 height: 705px;
+	 border-bottom: 1px solid #202020;
+	 border-left: 1px solid #202020;
+	 border-right: 1px solid #202020;
+   
+	}
+	#content #header #bottom a {
+	 color: #447777;
+	 font-weight: bold;
+	 text-decoration: none;
+	 text-indent: 50px;
+	}
+  
+  #leftdiv {
+	 float: left;
+	 width:100%;
+	 overflow: hidden;
+	 margin-right:35px
+	   
+	}
+
+	#rightinfo {
+	 overflow: hidden;
+	 padding: 10px 0;
+	 font-size: 13px;
+	 border-left: 1px solid #000;
+	 border-bottom: 1px solid #000;
+	 padding-left: 14px;
+	 margin-top: 10px;
+	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+
+	#rightinfo2 {
+	 overflow: hidden;
+	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+
+	#address {
+	 color: blue;
+	}
+
+	#contact {
+	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 font-size: 30px;
+	 font-weight: bold;
+	 text-decoration: none;
+	}
+
+	#aligncontact {
+	 text-align: center;
+	}
+
+	#leftfooter {
+	 float: left;
+	 width: 370px;
+	 overflow: hidden;
+	 height: 290px;
+	}
+
+	#video1 {
+	 overflow: auto;
+	 font-size: 16px;
+	 display: inline-block;
+	 padding-left:13px;
+	}
+
+	#picturem {
+	 display: inline-block;
+	 float: left;  
+	 margin-right: 25px;
+	 margin-top: 10px;
+	}
+	   
+	#contact2 {
+	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 font-size: 30px;
+	 font-weight: bold;
+	 text-decoration: none;
+	 width: 370px;
+	 margin-top: 10px;
+	}
+
+	#leftdiv2 {
+	 float: left;
+	 width:100%;
+	 overflow: hidden;
+	   
+	}
+
+	#titlename {
+	 padding-top: 25px;
+	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 font-size: 20px;
+	 text-decoration: none;
+	 font-weight: bold;
+	 color: #160501;
+	 margin-bottom: 30px;
+	}
+	   
+	#titlename a {  
+	 a:hover {
+	 color: blue;
+	}
+	   
+	#cryptobox {
+	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 border: 5px outset;
+	 float: right;
+	}
+	
+	#title2 {
+	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 font-size: 72px;
+	 font-weight: bold;
+	 text-decoration: none;
+	 text-align:center;
+	}
+  
+  /* -------------------------------------------------------------------------------------- */
+
