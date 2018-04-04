@@ -23,9 +23,9 @@ body {
 	#content #header #top {
 	 border-bottom: 1px solid #160501;
 	 padding: 15px 0 15px 0;
- 	 position: -webkit-sticky; /* Safari */
+ 	 position: -webkit-sticky;
     	 position: sticky;
-	 background-color:#F58B57;
+	 background-color: #F58B57;
     	 top: 0;
 	}
   
@@ -84,7 +84,7 @@ body {
 	 border-bottom: 1px solid #202020;
 	 border-left: 1px solid #202020;
 	 border-right: 1px solid #202020;
-	 background-color: #F58B57;
+	 background-color: white;
 	}
 
 	#content #header #bottom a {
