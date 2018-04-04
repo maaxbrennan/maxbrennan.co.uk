@@ -5,7 +5,7 @@ body {
 	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	 font-size: 10px;
 	 color: #160501;
-	 background: #FFF5EA;
+	 background: #FFFDFB;
 	 margin: 40px 0 20px 0;
 	 padding: 0;
 	 display: inline;
@@ -25,7 +25,7 @@ body {
 	 padding: 15px 0 15px 0;
  	 position: -webkit-sticky;
     	 position: sticky;
-	 background-color: #FFF5EA;
+	 background-color: #FFFDFB;
     	 top: 0;
 	}
   
@@ -75,7 +75,7 @@ body {
 	}
 	
   #content #header #bottom {
-	 font-size: 20px;
+	 font-size: 14px;
 	 padding: 9px 0;
 	 padding-left: 50px;
 	 padding-right: 50px;
@@ -84,7 +84,7 @@ body {
 	 border-bottom: 1px solid #202020;
 	 border-left: 1px solid #202020;
 	 border-right: 1px solid #202020;
-	 background-color: #FFFAF4;
+	 background-color: #FFF8F1;
 	}
 
 	#content #header #bottom a {
