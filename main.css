@@ -92,14 +92,6 @@ body {
 	 text-decoration: none;
 	 text-indent: 50px;
 	}
-  
-  #leftdiv {
-	 float: left;
-	 width:100%;
-	 overflow: hidden;
-	 margin-right:35px
-	   
-	}
 
 	#rightinfo {
 	 overflow: hidden;
@@ -162,7 +154,7 @@ body {
 	 margin-top: 10px;
 	}
 
-	#leftdiv2 {
+	#leftdiv {
 	 float: left;
 	 width:100%;
 	 overflow: hidden;
