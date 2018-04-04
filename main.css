@@ -209,8 +209,7 @@ body {
 	#sendmoney {
 	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	 font-size: 20px;
-	 font-weight: 500;
-	 text-decoration: none;
+	 font-weight: bold;
 	 width: 370px;
 	 padding-bottom: 3px;
 	}
