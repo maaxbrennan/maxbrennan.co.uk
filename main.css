@@ -190,4 +190,11 @@ body {
 	 text-align:center;
 	}
   
+	#cryptotext {
+	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 font-size: 12px;
+	 font-weight: bold;
+	 text-align: right;
+	}		
+
   /* ------------------------------------------------------------------------------------- */
