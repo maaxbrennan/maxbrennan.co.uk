@@ -5,7 +5,7 @@ body {
 	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	 font-size: 10px;
 	 color: #160501;
-	 background: #FFFF00;
+	 background: #F58B57;
 	 margin: 40px 0 20px 0;
 	 padding: 0;
 	 display: inline;
@@ -25,7 +25,7 @@ body {
 	 padding: 15px 0 15px 0;
  	 position: -webkit-sticky; /* Safari */
     	 position: sticky;
-	 background-color:white;
+	 background-color:#F58B57;
     	 top: 0;
 	}
   
