@@ -216,7 +216,7 @@ body {
 	 padding-bottom: 3px;
 	}
 
-	#ball {
+	.ball {
 	 position: absolute;
   	 border-radius: 100%;
   	 opacity: 0.7;
