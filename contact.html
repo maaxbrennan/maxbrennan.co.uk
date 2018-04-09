@@ -29,15 +29,35 @@
 				<div id="contactpage">
 					<div id="contact2" style="text-align:center;">CONTACT ME</div>
 					<br>
-						<div id="contactform">
-						<form action="https://formspree.io/maaxbrennan@hotmail.com" method="POST">
-		
-   							<input type="text" name="name">
-    							<input type="email" name="_replyto">
-							<input type="text" name="_gotcha" style="display:none"/>
-    							<input type="submit" value="Send">
-							<input type="hidden" name="_next" value="maxbrennan.co.uk" />
-						</form>
+						<div id="contactdiv" style="background-color: #454545">
+							<div id="contactform">
+							<p>Please use the form below to contact us regarding feedback or any questions you may have!
+      	 						We will never use the information given below to spam you and we will never pass on your
+      							information to a 3rd party.</p>
+							<div class="form-group">
+            							<div class="input-group">
+                						<span class="input-group-addon">Name</span>
+                						<input name="form-name-input" type="text" name="name" class="form-control" required>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">Email</span>
+                <input name="form-email-input" type="email" name="_replyto" class="form-control" required>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">Subject</span>
+                <input name="form-subject-input" type="text" name="subject" class="form-control" required>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">Description</span>
+                <textarea name="form-description-input" name="description" class="form-control" rows="4" cols="60" required></textarea>
+            </div>
+            <input type="text" name="_gotcha" style="display:none" />
+            <input class="btn btn-success" data-dismiss="modal" type="submit" id="form-submit-btn" value="Submit">
+            <input type="hidden" name="_next" value="http://maxbrennan.co.uk" />
+        </div>
+							<form action="https://formspree.io/maaxbrennan@hotmail.com" method="POST">
+							</form>
+							</div>
 						</div>
 					<br>
 					<br>			
