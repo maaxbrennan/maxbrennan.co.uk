@@ -234,20 +234,6 @@ body {
 	 font-style: italic;
 	}
 		
-	#contact-image {
-		
-	}
-		
-	.aright {
-	 float: right;
-	 margin-right: 25%;
-	}
-		
-	.aleft {
-	 float: left;
-	 padding: 5px 25px 25px 0;
-	}
-		
 	#qcontacts #contact-address p {
 	 margin-left: 5px;
 	}
@@ -261,69 +247,27 @@ body {
 	#emailForm {
 	 margin-top: 15px;
 	}
+		
 	.contact-other {
 	 margin-bottom: 3px;
 	}
-		
-	#qcontacts label {
-	 display:block;
-	}
-		
-	#qcontacts label.chkbox {
-	 display:inline;
-	}
-		
-	#qcontacts input.chkbox {
-	 display:inline;
-	 margin-bottom: 0;
-	}
-		
-	#qcontacts label.required {
-	 color:#ff0000;
-	}
+
 		
 	#qcontacts select {
 	 display: block;
 	}
 
+	#qcontacts input, #qcontacts textarea, #qcontacts select, #qcontacts .fld-wrap {
+	 margin-bottom: 6px;
+	}
 
+	#qcontacts .contact-button {
+	 display: block;
+	 margin-top: 10px;
+	}
 
-#qcontacts input, #qcontacts textarea, #qcontacts select, #qcontacts .fld-wrap {
-	/*display: block;*/
-	margin-bottom: 6px;
-}
-#qcontacts input.radio {
-	display: inline;
-	margin-bottom: 0;
-}
-#qcontacts .contact-button {
-	display: block;
-	margin-top: 10px;
-}
-
-label.textarea {
-	margin:7px 0;
-	display:block;
-}
-
-#qcontacts-error {
-	border: 1px solid #ff0000;
-	margin-top: 12px;
-	width: 300px;
-	padding: 3px;
-	text-align: center;
-	font-weight: bold;
-}
-
-#captcha-img {
-	margin-top: 6px;
-}
-div.separator {
-	margin-bottom: 6px;
-}
-#qcontacts-confirm  .linkback {
-	display: block;
-	margin-top: 15px;
-}
+	div.separator {
+	 margin-bottom: 6px;
+	}
 		
   /* ------------------------------------------------------------------------------------- */
