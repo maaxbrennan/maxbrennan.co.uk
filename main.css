@@ -215,6 +215,17 @@ body {
 	 width: 370px;
 	 padding-bottom: 3px;
 	}
+		
+	#contact3 {
+	 font-family: malgun gothic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 font-size: 24px;
+	 font-weight: bold;
+	 text-decoration: none;
+	 width: 100%;
+	 text-align:center;
+	 margin-top: 10px;
+	 padding-bottom: 10px;
+	}
 	
 	#contactpage {
 		
