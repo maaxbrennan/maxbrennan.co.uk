@@ -217,7 +217,6 @@ nav a {
    color: black;
    position: absolute;
    bottom: 5px;
-   margin: 0;
    font-size: 13px;
    text-align: center;
    width: 95%;
@@ -226,9 +225,9 @@ nav a {
    -webkit-transform:translateX(100%);
    transform:translateX(100%);
    /* Apply animation to this element */
-   -moz-animation: scroller 8s linear infinite;
-   -webkit-animation: scroller 8s linear infinite;
-   animation: scroller 8s linear infinite;
+   -moz-animation: scroller 14s linear infinite;
+   -webkit-animation: scroller 14s linear infinite;
+   animation: scroller 14s linear infinite;
   }
   /* Move it (define the animation) */
   @-moz-keyframes scroller {
