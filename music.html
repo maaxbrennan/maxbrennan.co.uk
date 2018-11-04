@@ -20,6 +20,23 @@
 		<link rel="icon" type="image/ico" href="MEDIA/favicon.ico">
 		<link rel="shortcut icon" type="image/x-icon" href="MEDIA/favicon.ico" />
 		<link rel="icon" type="image/x-icon" href="MEDIA/favicon.ico" />
+	
+		<style>
+			
+			.spotifyplayer {
+				border: 1px solid black;
+			}
+			
+			.placement {
+				position: absolute;
+    				top: 80px;
+    				right: 0;
+    				width: 200px;
+    				height: 100px;
+			}
+			
+		</style>
+	
 </head>
   
 <body style="background: #F0F0F0;" scroll="no" style="overflow: hidden" >
@@ -30,7 +47,11 @@
 	 	<h1>SHARING IS CARING</h1>
 	</ul>
 	
-	<iframe src="https://open.spotify.com/embed/user/21fsn3oiwwfhhs2nlip3h4cky/playlist/2yGhbUBfSvklBmqgxYNKc4" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+	<div class="placement">
+		<div class="spotifyplayer"> 
+		<iframe src="https://open.spotify.com/embed/user/21fsn3oiwwfhhs2nlip3h4cky/playlist/2yGhbUBfSvklBmqgxYNKc4" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+		</div>
+	</div>
 	
 </body>
   
