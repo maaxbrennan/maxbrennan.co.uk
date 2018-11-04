@@ -179,8 +179,7 @@ h1 a {
 
 .main-nav {
   list-style: none;
-  text-align: center;
-  position: fixed;
+  text-align: none;
 }
 
 .main-nav:before {
