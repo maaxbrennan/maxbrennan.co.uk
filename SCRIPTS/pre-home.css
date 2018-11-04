@@ -24,7 +24,7 @@ body > div {
 }
 
 ul.social-icons-pre {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
