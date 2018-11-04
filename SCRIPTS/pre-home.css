@@ -208,6 +208,7 @@ nav a {
 
 .scroller {
    height: 50px;
+   padding-bottom: 90px;
    overflow: hidden;
    position: relative;
 }
