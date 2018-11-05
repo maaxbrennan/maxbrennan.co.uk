@@ -13,7 +13,6 @@
 		<title>MUSIC</title>	
 
 		<script type="text/javascript" async="" src="/SCRIPTS/analytics.js"></script><script async="" src="/SCRIPTS/js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 		<link rel="stylesheet" href="SCRIPTS/pre-home.css">
 		<link rel="stylesheet" href="SCRIPTS/font-awesome.min.css">
@@ -43,32 +42,6 @@
 	
 <h1 class="logo-left logo-left-pre" style="margin-top: 10px;"> MAX BRENNAN</h1> 
 
-	<script>
-		
-	function makeDiv(i) {
-	  var divsize = ((Math.random() * 100) + 50).toFixed();
-	  var color = '#' + Math.round(0xffffff * Math.random()).toString(16);
-	  var posx = (Math.random() * ($(document).width() - divsize)).toFixed();
-	  var posy = (Math.random() * ($(document).height() - divsize)).toFixed();
-	  var divid = 'randBlock' + i;
-
-	  $('#randBlock').append("<div id='" + divid + "'>");
-	  $('#' + divid).css({
-	    'width': divsize + 'px',
-	    'height': divsize + 'px',
-	    'background-color': color,
-	    'position': 'absolute',
-	    'left': posx + 'px',	
-	    'top': posy + 'px'
-	  });
-	}
-
-	for (var i = 0; i < 10; ++i) {
-	  makeDiv(i);
-	} </script>
-	
-	<div id="randBlock">
-	</div>
 	
 	<ul class="social-icons-pre social-icons-main scroller">
 	 	<h1>SHARING IS CARING</h1>
