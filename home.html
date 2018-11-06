@@ -14,9 +14,6 @@
 
 		<script type="text/javascript" async="" src="/SCRIPTS/analytics.js"></script><script async="" src="/SCRIPTS/js"></script>
 
-		<link rel="stylesheet" href="/SCRIPTS/pre-home.css">
-		<link rel="stylesheet" href="/SCRIPTS/font-awesome.min.css">
-  		<link href="/SCRIPTS/font-awesome.css" rel="stylesheet" type="text/css">
 		<link rel="icon" type="image/ico" href="MEDIA/favicon.ico">
 		<link rel="shortcut icon" type="image/x-icon" href="MEDIA/favicon.ico" />
 		<link rel="icon" type="image/x-icon" href="MEDIA/favicon.ico" />
@@ -36,150 +33,14 @@
 		</nav>
 
 
-	 <ul class="social-icons-pre social-icons-main scroller">
-	   <li><a href="https://www.facebook.com/max.brennan.5682" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
-	   <li><a href="https://open.spotify.com/user/21fsn3oiwwfhhs2nlip3h4cky/playlist/2yGhbUBfSvklBmqgxYNKc4?si=8-IKI0cHRvWFNZprsSrItg" target="_blank" class="social-icon"> <i class="fa fa-spotify"></i></a></li>
-	   <li><a href="https://www.instagram.com/maaxbrennan/" target="_blank" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
-	 	<h1>MAKE YOURSELF HARD TO IGNORE</h1>
-	 </ul>
+		 <ul class="social-icons-pre social-icons-main scroller">
+		   <li><a href="https://www.facebook.com/max.brennan.5682" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+		   <li><a href="https://open.spotify.com/user/21fsn3oiwwfhhs2nlip3h4cky/playlist/2yGhbUBfSvklBmqgxYNKc4?si=8-IKI0cHRvWFNZprsSrItg" target="_blank" class="social-icon"> <i class="fa fa-spotify"></i></a></li>
+		   <li><a href="https://www.instagram.com/maaxbrennan/" target="_blank" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+		   <h1>MAKE YOURSELF HARD TO IGNORE</h1>
+		 </ul>
 
-<!--	<script>
-
-	var PageTitle = function() {
-			if (isTouch) {
-					return;
-			}
-
-			this.$el = $('#page-title-p');
-			this.$chars = this.initChars();
-
-			this.mouseX = 0;
-			this.mouseY = 0;
-			this.homeX = 0;
-			this.homeY = 0;
-			this.forceX = 0;
-			this.forceY = 0;
-			this.magnet = 1000;
-
-			this.isUpdating = false;
-			this.isEnabled = true;
-
-			this.bind();
-			this.start();
-	};
-
-	PageTitle.prototype = {
-
-			bind: function() {
-					$(window).on('scroll', this.handleScroll.bind(this));
-					$(window).on('mousemove', this.handleMouseMove.bind(this));
-			},
-
-			start: function() {
-					requestAnimationFrame(this.update.bind(this));
-			},
-
-			handleScroll: function() {
-					this.isEnabled = window.scrollY < 50;
-			},
-
-			handleMouseMove: function(e) {
-					this.mouseX = e.pageX;
-					this.mouseY = e.pageY;
-			},
-
-			initChars: function() {
-					this.wrapChars();
-
-					var self = this;
-					var $chars = this.$el.find('.line span');
-
-					$chars.each(function(i, el) {
-							self.initChar($(el));
-					});
-
-					return $chars;
-			},
-
-			wrapChars: function() {
-					this.$el.find('.line').each(function(i, el) {
-							$(el).html($(el).text().split('').map(function(t) {
-									return '<span>' + t + '</span>';
-							}));
-					});
-			},
-
-			initChar: function($el) {
-					var pos = $el.position();
-					$el.data({
-							homeX: parseInt(pos.left, 10),
-							homeY: parseInt(pos.top, 10)
-					});
-
-					setTimeout(function() {
-							$el.css('position', 'absolute');
-					}, 10);
-			},
-
-			update: function() {
-					var self = this;
-					var isSlow = this.isRendered && fps < 30;
-
-					if (this.isUpdating) {
-							return;
-					}
-
-					if (this.isEnabled && !isSlow) {
-							this.isUpdating = true;
-
-							this.$chars.each(function(i, el) {
-									self.updateChar($(el));
-							});
-
-							this.isUpdating = false;
-					}
-
-					this.isRendered = true;
-					requestAnimationFrame(this.update.bind(this));
-			},
-
-			updateChar: function($el) {
-					var position = $el.position();
-
-					var homeX = $el.data('homeX');
-					var homeY = $el.data('homeY')
-
-					var x0 = position.left;
-					var y0 = position.top;
-					var x1 = this.mouseX;
-					var y1 = this.mouseY;
-
-					var distanceX = x1 - x0;
-					var distanceY = y1 - y0;
-
-					var distance = Math.sqrt((distanceX * distanceX) + (distanceY * distanceY));
-
-					this.powerX = x0 - (distanceX / distance) * this.magnet / distance;
-					this.powerY = y0 - (distanceY / distance) * this.magnet / distance;
-
-					this.forceX = (this.forceX + (homeX - x0) / 2) / 2;
-					this.forceY = (this.forceY + (homeY - y0) / 2) / 2;
-
-					var rotate = Math.floor(homeX - (this.powerX + this.forceX)) / 7.5;
-
-					var updateX = Math.abs(homeX - (this.powerX + this.forceX)) > 2;
-					var updateY = Math.abs(homeX - (this.powerY + this.forceY)) > 2;
-
-							$el.css('left', this.powerX + this.forceX);
-							$el.css('top', this.powerY + this.forceY);
-							$el.css('transform', 'rotateZ(' + rotate + 'deg)');
-			}
-	};
-
-
-</script> -->
-
-    </div>
+   	</div>
 	
 
 </body></html>
