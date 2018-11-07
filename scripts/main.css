@@ -347,11 +347,7 @@ nav a {
   z-index: 1;
   font-weight: 600;
   font-size: 1.2em;
-     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+
 }
 
 @media screen and (min-width: 600px) {
@@ -363,11 +359,21 @@ nav a {
 #left-nav ul li {
   display: inline-block;
   margin: 0 25px;
+         -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 
 #left-nav a {
   text-decoration: none;
   color: black;
+         -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 
 #right-nav {
@@ -383,21 +389,27 @@ nav a {
   z-index: 1;
   font-weight: 600;
   font-size: 1.2em;
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+
+}
+
+#right-nav ul li {
+  display: inline-block;
+  margin: 0 25px;
+         -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
 }
 
-#right-nav ul li {
-  display: inline-block;
-  margin: 0 25px;
-}
-
 #right-nav a {
   text-decoration: none;
   color: black;
+         -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 
 .ye-hover img {
