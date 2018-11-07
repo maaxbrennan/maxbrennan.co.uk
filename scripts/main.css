@@ -395,21 +395,11 @@ nav a {
 #right-nav ul li {
   display: inline-block;
   margin: 0 25px;
-         -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
 }
 
 #right-nav a {
   text-decoration: none;
   color: black;
-         -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
 }
 
 .ye-hover img {
@@ -502,24 +492,6 @@ img.m3 {
 .images {
   text-align: center;
   padding: 3em;
-}
-
-.body1 {
-  background-image: url("http://res.cloudinary.com/hannanymous/image/upload/v1508549303/About/about-hero-notext.jpg");
-  background-size: cover;
-}
-
-@media screen and (max-width: 500px) {
-  .body1 {
-    background-image: url("http://res.cloudinary.com/hannanymous/image/upload/v1508716156/About/abouttt.png");
-    background-size: cover;
-  }
-}
-
-@media screen and (min-width: 501px) and (max-width: 900px) {
-  .body1 {
-    background-image: url("http://res.cloudinary.com/hannanymous/image/upload/v1508716355/About/abouttt1.png");
-  }
 }
 
 .main-about {
@@ -1014,16 +986,13 @@ body::before, body::after {
   * important: keep position fixed, you can however use top:0 instead of bottom:0
   * if you want to make it stick to the top of the browser
   */
+
 .scroll
 {
   position: fixed;
   left: 10px;
 }
 
-/**
-  * z-index ordering of the different layers, do this for your layers,
-  * also assign absolute width (to prevent issues if the script gets executed before the images get loaded)
-  */
 .horizon
 {
   z-index: 100;
