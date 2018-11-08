@@ -1079,5 +1079,6 @@ body::before, body::after {
     margin-left:20%;
     margin-right:20%;
     margin-top:10%;
-    background-color: #fbf7f5;
+    background-color: #fdf5e6;
+    padding: 2px;
 }
