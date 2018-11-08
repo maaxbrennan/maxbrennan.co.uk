@@ -1073,6 +1073,7 @@ body::before, body::after {
     font-weight: 600;
     z-index: 1;
     position: relative;
+    margin: 10px
 }
 
 .arttext {
@@ -1080,9 +1081,7 @@ body::before, body::after {
     font-weight: 550;
     z-index: 1;
     position: relative;
-    margin-left:20%;
-    margin-right:20%;
-    margin-top:10%;
+    margin: 10px;
     background-color: #F0F0F0;
     padding: 2px;
 }
