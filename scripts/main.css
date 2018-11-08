@@ -479,7 +479,10 @@ img.m3 {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 80%;
-  }
+  .arttext {
+          font-size: 12px;
+             }
+    }
 
   .images {
     text-align: center;
@@ -1081,46 +1084,4 @@ body::before, body::after {
     margin-top:10%;
     background-color: #F0F0F0;
     padding: 2px;
-}
-
-@media screen and (max-width: 900) {
-.arttext {
-    font-size: 16px;
-    font-weight: 550;
-    z-index: 1;
-    position: relative;
-    margin-left:20%;
-    margin-right:20%;
-    margin-top:10%;
-    background-color: #F0F0F0;
-    padding: 2px;
-}
-}
-
-@media screen and (max-width: 700) {
-.arttext {
-    font-size: 14px;
-    font-weight: 550;
-    z-index: 1;
-    position: relative;
-    margin-left:20%;
-    margin-right:20%;
-    margin-top:10%;
-    background-color: #F0F0F0;
-    padding: 2px;
-}
-}
-
-@media screen and (max-width: 500) {
-.arttext {
-    font-size: 12px;
-    font-weight: 550;
-    z-index: 1;
-    position: relative;
-    margin-left:20%;
-    margin-right:20%;
-    margin-top:10%;
-    background-color: #F0F0F0;
-    padding: 2px;
-}
 }
