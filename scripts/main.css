@@ -469,7 +469,7 @@ img.m2 {
 }
 
 img.m3 {
-    margin-top: 23em;
+    margin-top: 10em;
     margin-left: 8em;
 }
 
@@ -1076,6 +1076,8 @@ body::before, body::after {
     font-weight: 550;
     z-index: 1;
     position: relative;
-    padding-left:20%;
-    padding-right:20%;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:10%;
+    background-color: #fbf7f5;
 }
