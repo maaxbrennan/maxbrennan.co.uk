@@ -469,8 +469,8 @@ img.m2 {
 }
 
 img.m3 {
-    margin-top: 10em;
-    margin-right: 30em;
+    margin-top: 25em;
+    margin-left: 8em;
 }
 
 @media screen and (max-width: 950px) {
