@@ -476,6 +476,8 @@ img.m3 {
 @media screen and (max-width: 950px) {
   .images img {
     display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 80%;
   }
 
