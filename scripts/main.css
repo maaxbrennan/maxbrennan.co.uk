@@ -592,7 +592,7 @@ img.hs {
 }
 
 .staggered_images { padding-left:0px; }
-.staggered_images img { width:45%; display:inline-block; border:Solid 1px #fff; }
+.staggered_images img { width:45%; display:inline-block; }
 ##.staggered_images img:nth-child(4n-4) { margin:0%; }
 ##.staggered_images img:nth-child(4n-2) { margin-bottom:5%; margin-top:-5%; }
 ##.staggered_images img:nth-child(4n-1) { margin-right:-5%; }
