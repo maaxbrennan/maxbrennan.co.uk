@@ -1082,3 +1082,45 @@ body::before, body::after {
     background-color: #fdf5e6;
     padding: 2px;
 }
+
+@media screen and (max-width: 900) {
+.arttext {
+    font-size: 16px;
+    font-weight: 550;
+    z-index: 1;
+    position: relative;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:10%;
+    background-color: #fdf5e6;
+    padding: 2px;
+}
+}
+
+@media screen and (max-width: 700) {
+.arttext {
+    font-size: 14px;
+    font-weight: 550;
+    z-index: 1;
+    position: relative;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:10%;
+    background-color: #fdf5e6;
+    padding: 2px;
+}
+}
+
+@media screen and (max-width: 500) {
+.arttext {
+    font-size: 12px;
+    font-weight: 550;
+    z-index: 1;
+    position: relative;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:10%;
+    background-color: #fdf5e6;
+    padding: 2px;
+}
+}
