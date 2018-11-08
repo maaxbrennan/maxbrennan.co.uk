@@ -1065,7 +1065,6 @@ body::before, body::after {
 }
 
 .maxauthor {
-    position: absolute;
     font-size: 26px;
     font-weight: 600;
 }
