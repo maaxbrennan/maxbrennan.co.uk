@@ -1084,4 +1084,7 @@ body::before, body::after {
     margin: 10px;
     background-color: #F0F0F0;
     padding: 2px;
+    margin-right:10%;
+    margin-left:15%;
+    
 }
