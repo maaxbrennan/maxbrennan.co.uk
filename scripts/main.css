@@ -454,6 +454,7 @@ i.fa.fa-chevron-circle-left {
 
 img.m1 {
     margin-top: 3em;
+    margin-left: 4em;
 }
 
 @media screen and (max-width: 950px) {
@@ -470,7 +471,7 @@ img.m2 {
 
 img.m3 {
     margin-top: 10em;
-    margin-right: 16em;
+    margin-right: 30em;
 }
 
 @media screen and (max-width: 950px) {
