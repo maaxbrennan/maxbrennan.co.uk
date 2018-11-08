@@ -1070,3 +1070,12 @@ body::before, body::after {
     z-index: 1;
     position: relative;
 }
+
+.arttext {
+    font-size: 22px;
+    font-weight: 550;
+    z-index: 1;
+    position: relative;
+    padding-left:20%;
+    padding-right:20%;
+}
