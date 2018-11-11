@@ -473,6 +473,11 @@ img.m3 {
     margin-left: 8em;
 }
 
+img.m4 {
+    margin-top: 5em;
+    margin-left: 8em;
+}
+
 @media screen and (max-width: 950px) {
   .images img {
     display: inline-block;
@@ -498,6 +503,12 @@ img.m3 {
   img.m3 {
     margin: 0;
   }
+    
+    img.m4 {
+    margin-top: 5em;
+    margin-left: 8em;
+}
+    
 }
 
 .images {
