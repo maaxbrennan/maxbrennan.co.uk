@@ -342,7 +342,7 @@ nav a {
 #left-nav {
   height: 6rem;
   left: 44px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   position: fixed;
   text-align: center;
   text-transform: uppercase;
@@ -384,7 +384,7 @@ nav a {
 
 #right-nav {
   position: fixed;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   right: 31px;
   text-align: center;
   text-transform: uppercase;
@@ -625,6 +625,8 @@ div.clr { clear:both; }
 /*.main-nav h1 { background-color:#fff; padding:15px; border:solid 1px #000; }*/
 @media all and (max-width:640px) {
   .staggered_images img { width:45%; margin:1% !important; }
+    #right-nav { font-size:16px; }
+    #left-nav { font-size:16px; }
 }
 
 html {
