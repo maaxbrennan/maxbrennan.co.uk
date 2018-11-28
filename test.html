@@ -60,14 +60,6 @@
 				padding:1%;
 				text-transform: uppercase;
 				}
-		
-			.nav li .titlea {
-				left:0;
-				padding:1%;
-				text-weight: 800;
-				padding-right: 20%;
-				position: absolute;
-				}
  
 			.nav a {
 				text-decoration: none;
@@ -117,7 +109,16 @@
 		    <div class="nav">
 			    
      			<ul>
-				<li class="titlea">MAX BRENNAN</li>
+				<li class="titlea" style="
+							left:0;
+							padding:1%;
+							text-weight: 800;
+							font: small-caps bold 24px/1 sans-serif;
+							font-color: white;
+							padding-right: 20%;
+							position: absolute;">
+							MAX BRENNAN</li>
+				
         			<li class="home"><a href="#">Home</a></li>
         			<li class="food"><a href="#">Food</a></li>
         			<li class="about"><a href="#">About</a></li>
@@ -131,45 +132,7 @@
 	<div id="draggablediv">
 	<img src="media/paris/IMG_2001.jpg" width="453px" height="613px">
 	</div>
-	<script>
-		
-dragElement(document.getElementById("draggablediv"));
 
-function dragElement(elmnt) {
-  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-  if (document.getElementById(elmnt.id + "body")) {
-    document.getElementById(elmnt.id + "body").onmousedown = dragMouseDown;
-  } else {
-    elmnt.onmousedown = dragMouseDown;
-  }
-
-  function dragMouseDown(e) {
-    e = e || window.event;
-    e.preventDefault();
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    document.onmouseup = closeDragElement;
-    document.onmousemove = elementDrag;
-  }
-
-  function elementDrag(e) {
-    e = e || window.event;
-    e.preventDefault();
-    pos1 = pos3 - e.clientX;
-    pos2 = pos4 - e.clientY;
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-  }
-
-  function closeDragElement() {
-    /*  */
-    document.onmouseup = null;
-    document.onmousemove = null;
-  }
-}
-</script>
 	
 </body>
 
