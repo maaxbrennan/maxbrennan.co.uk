@@ -57,7 +57,7 @@
 				line-height: 40px;
 				height: 40px;
 				border-bottom: 1px solid #888;
-				padding:1%;
+				padding:0.5%;
 				text-transform: uppercase;
 				}
  
@@ -79,12 +79,21 @@
 				background-color: #fff;
 				color: #444;
 				}
-
+			
+			#bigtitle {
+				left:0;
+				padding:1%;
+				text-weight: 800;
+				font: small-caps bold 24px/1 sans-serif;
+				font-color: white;
+				padding-right: 20%;
+				position: absolute;
+				}
+				
 			@media screen and (min-width: 600px) {
 			.nav li {
 				width: 120px;
 				border-bottom: none;
-				height: 50px;
 				line-height: 50px;
 				font-size: 1.4em;
 				}		
@@ -98,27 +107,22 @@
 				position: absolute;
 				z-index: 9;
 				background-color: #f1f1f1;
-				border: 1px solid #d3d3d3;					
+				border: 1px solid #d3d3d3;	
+				}
+				
+				
 		</style>
 </head>
 
 <body>
 	<div id="sftb">
 		<header>
-
+		<div id="bigtitle">
+			MAX BRENNAN
+		</div>
 		    <div class="nav">
 			    
-     			<ul>
-				<li class="titlea" style="
-							left:0;
-							padding:1%;
-							text-weight: 800;
-							font: small-caps bold 24px/1 sans-serif;
-							font-color: white;
-							padding-right: 20%;
-							position: absolute;">
-							MAX BRENNAN</li>
-				
+     			<ul>	
         			<li class="home"><a href="#">Home</a></li>
         			<li class="food"><a href="#">Food</a></li>
         			<li class="about"><a href="#">About</a></li>
