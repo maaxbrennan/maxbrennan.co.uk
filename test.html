@@ -10,9 +10,6 @@
     		<title>Test Page</title>
 		
 		<style>
-			html	{
-				cursor:grab;
-				}
 			
 			footer {
 				width: 100%;
@@ -24,10 +21,12 @@
 				position:fixed;
 				padding: 1%;
 				border: 1px solid black;
+				cursor: alias;
 				}
 			
 			footer a {
 				text-decoration: none;
+				cursor: grabbing;
 				}
 
 			body 	{
@@ -77,14 +76,14 @@
 				color: #444;
 				}
 
-				 @media screen and (min-width: 600px) {
-				  .nav li {
-				    width: 120px;
-				    border-bottom: none;
-				    height: 50px;
-				    line-height: 50px;
-				    font-size: 1.4em;
-				  }		
+			@media screen and (min-width: 600px) {
+			.nav li {
+				width: 120px;
+				border-bottom: none;
+				height: 50px;
+				line-height: 50px;
+				font-size: 1.4em;
+				}		
 
 			.nav li {
 				display: inline-block;
