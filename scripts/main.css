@@ -144,7 +144,7 @@ h1.logo-left-pre {
     overflow: hidden;
     padding-left: 1em;
     /*bottom: 0;*/
-    position: absolute;
+    position: fixed;
 }
 
 h1 a {
