@@ -353,7 +353,6 @@ nav a {
   z-index: 1;
   font-weight: 600;
   font-size: 1.2em;
-
 }
 
 @media screen and (min-width: 600px) {
@@ -374,7 +373,7 @@ nav a {
 
 #left-nav a {
   text-decoration: none;
-  color: black;
+  color: white;
          -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
@@ -405,7 +404,7 @@ nav a {
 
 #right-nav a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .ye-hover img {
