@@ -456,10 +456,17 @@ img.m1 {
     margin-top: 7em;
 }
 
+img.m42 {
+    margin-top: 4.5em;
+}
+
 @media screen and (max-width: 950px) {
   img.m1{
     margin-top: 0;
   }
+  img.m42{
+    margin-top: 0;
+  }    
 }
 
 img.m2 {
