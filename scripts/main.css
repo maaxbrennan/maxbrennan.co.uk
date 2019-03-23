@@ -24,7 +24,8 @@ body > div {
 }
 
 .social-icon img {
-    max-width:45px;
+    max-width: 25px;
+    margin: 14px 40px;
 }
 
 ul.social-icons-pre {
