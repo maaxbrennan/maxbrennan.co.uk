@@ -1146,4 +1146,10 @@ body::before, body::after {
   -moz-animation-delay: 0.9s;
   animation-delay: 0.9s;
 }
+
+.fade-in.three {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
 /* keyframes fadeIn end */
