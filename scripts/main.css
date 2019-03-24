@@ -24,7 +24,7 @@ body > div {
 }
 
 .social-icon img {
-    max-width: 25px;
+    max-width: 17px;
     margin: 5px 40px;
 }
 
@@ -159,7 +159,7 @@ h1 a {
 
 @media only screen and (max-width: 550px) {
 .social-icon img {
-    max-width: 19px!important;
+    max-width: 17px!important;
     margin: 3px 18px!important;
     }
 }
