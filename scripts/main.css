@@ -7,7 +7,9 @@ html, body {
 }
 
 body {
-  overflow-y: scroll;
+background: #F0F0F0;
+overflow-x: hidden;
+overflow-y: scroll;
 }
 
 * {
@@ -29,12 +31,12 @@ body > div {
 }
 
 ul.social-icons-pre {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  /* top: 90%; */
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+text-align: center;
+z-index: 100;
 }
 
 ul.social-icons-artists {
@@ -191,7 +193,6 @@ h1 a {
 }
 
 .main-nav:before {
-   content: '';
    display: inline-block;
    height: 100%;
    vertical-align: middle;
@@ -1156,3 +1157,50 @@ body::before, body::after {
   animation-delay: 1.2s;
 }
 /* keyframes fadeIn end */
+
+ .nav2 {
+   background-color:#efefef;
+   transform: translate(-50%,-50%);
+   position: fixed;
+   top: 45%;
+   right: 15%; 
+   height:350px;
+   width:280px;
+   border-bottom: 22px outset rgba(228, 136, 146, 0.62);
+   border-top: 22px outset rgba(170, 50, 220, .6);
+  }
+
+@media screen and (min-width: 940px) {
+  .main-nav {
+    padding:20px;
+    background-color:#d8d8d8;
+    box-shadow: 20px 17px 0px darkgrey;    
+  }
+  .nav {
+   transform: translate(-50%,-50%);
+   position: fixed;
+   top: 45%;
+   left: 25%;
+  }
+  .nav2 {
+   visibility:visible;   
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .nav2 {
+    visibility:hidden;
+  }
+}
+
+@media screen and (max-height: 590px) {
+.nav {
+  transform: translate(-50%,-50%);
+  position: fixed;
+  top: 45%;
+  left: 50%;
+}
+  .nav2 {
+    visibility:hidden;
+  }
+}
