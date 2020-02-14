@@ -152,7 +152,7 @@ h1.logo-left-pre {
     font-size: 37px;
     overflow: hidden;
     padding-left: 1em;
-    /*bottom: 0;*/
+    top: 0;
     position: fixed;
 }
 
