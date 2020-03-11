@@ -645,6 +645,8 @@ img.hs {
 
 .staggered_images {
     padding-left: 0px;
+    max-width: 1370px;
+    margin: 0 auto;
 }
 
 .staggered_images img {
