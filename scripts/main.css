@@ -189,6 +189,17 @@ h1 a {
     left: 50%;
 }
 
+.paris-flag {
+    background-image: -webkit-linear-gradient(90deg, #0055A4 33%, #ffffff 33%, #ffffff 66%, #EF4135 66%);
+    background-image: -o-linear-gradient(90deg, #0055A4 33%, #ffffff 33%, #ffffff 66%, #EF4135 66%);
+    background-image: -moz-linear-gradient(90deg, #0055A4 33%, #ffffff 33%, #ffffff 66%, #EF4135 66%);
+    background-image: linear-gradient(90deg, #0055A4 33%, #ffffff 33%, #ffffff 66%, #EF4135 66%);
+}
+
+.flag-shape {
+    min-width: 130px;
+}
+
 .main-nav {
     list-style: none;
 }
