@@ -863,25 +863,25 @@ body::after {
 /* keyframes fadeIn end */
 
 .nav2 {
-    background-color: #efefef;
     transform: translate(-50%, -50%);
     position: fixed;
     top: 45%;
     right: 15%;
     height: 350px;
     width: 280px;
-    background: -webkit-gradient(#f58b57 0 33%, #4891d9 0 66%, #100535 0 100%);
-    background: -moz-linear-gradient(#f58b57 0 33%, #4891d9 0 66%, #100535 0 100%);
+    background: -webkit-linear-gradient(120deg, #d57eeb 0%, #fccb90 100%);
+    background-image: -webkit-linear-gradient(120deg, rgb(213, 126, 235) 0%, rgb(252, 203, 144) 100%);
     z-index: 20;
+    background-image: linear-gradient(120deg, #d57eeb 0%, #fccb90 100%);
 }
 
 .nav2-border {
-    background-color: #efefef;
-    transform: translate(-45%, -48%);
+    background-color:#efefef;
+    transform: translate(-44.5%, -47%);
     position: fixed;
     top: 43.5%;
-    right: 14.7%;
-    height: 370px;
+    right: 14.75%;
+    height: 375px;
     width: 300px;
     z-index: 19;
     background-image: linear-gradient(130deg, #fccb90 0%, #d57eeb 100%);
