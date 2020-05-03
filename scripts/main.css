@@ -161,6 +161,17 @@ h1 a {
     color: black;
 }
 
+@media only screen and (max-width: 600px) {
+    #spinning-out {
+        top: 45% !important;
+        left: 50% !important;
+    }
+
+    nav#spinning-out ul li.active {
+        font-size: 20px;
+    }
+}
+
 @media only screen and (max-width: 550px) {
     .social-icon img {
         max-width: 17px !important;
@@ -432,6 +443,21 @@ nav a {
     #left-nav {
         left: 59px;
     }
+
+    #spinning-out {
+        -webkit-animation: rotation 12s infinite linear;
+        top: 25%;
+    }
+
+    @-webkit-keyframes rotation {
+        from {
+            -webkit-transform: rotate3d(1, 1, 1, 0deg);
+        }
+
+        to {
+            -webkit-transform: rotate3d(1, 1, 1, 360deg);
+        }
+    }
 }
 
 #left-nav ul li {
@@ -524,6 +550,11 @@ i.fa.fa-chevron-circle-left {
     .fa.fa-chevron-circle-left {
         bottom: -9em !important;
     }
+
+    .main-nav transform: translate(-50%, -50%);
+    position: fixed;
+    top: 45%;
+    left: 25%;
 }
 
 .images img {
@@ -845,6 +876,8 @@ body::after {
     }
 }
 
+
+
 @-webkit-keyframes fadeIn {
     from {
         opacity: 0;
@@ -998,6 +1031,7 @@ body::after {
     .nav2-border {
         visibility: visible;
     }
+
 }
 
 @media screen and (max-width: 940px) {
@@ -1007,6 +1041,11 @@ body::after {
 
     .nav2-border {
         visibility: hidden;
+    }
+
+    #spinning-out {
+        top: 25%;
+        left: 15%;
     }
 }
 
