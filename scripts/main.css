@@ -1035,14 +1035,6 @@ body::after {
 }
 
 @media screen and (max-width: 940px) {
-    .nav2 {
-        visibility: hidden;
-    }
-
-    .nav2-border {
-        visibility: hidden;
-    }
-
     #spinning-out {
         top: 25%;
         left: 15%;
@@ -1057,11 +1049,4 @@ body::after {
         left: 50%;
     }
 
-    .nav2 {
-        visibility: hidden;
-    }
-
-    .nav2-border {
-        visibility: hidden;
-    }
 }
