@@ -373,6 +373,10 @@ body.menu-open .plus-btn .r2 {
     transition: all 0.2s;
 }
 
+.mw380 {
+    max-width: 380px;
+}
+
 
 @media (min-width: 480px) {}
 
