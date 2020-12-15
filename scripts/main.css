@@ -224,7 +224,7 @@ body.menu-open .plus-btn .r2 {
     position: fixed;
     background-color: #f0f0f0;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: end;
 }
 
