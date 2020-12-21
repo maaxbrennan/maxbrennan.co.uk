@@ -7,8 +7,6 @@ body {
     overflow-x: hidden;
 }
 
-html {}
-
 body {
     background: #F0F0F0;
     height: 100%;
@@ -296,7 +294,6 @@ body.menu-open .plus-btn .r2 {
 }
 
 .window-content form {
-    border: 1px dashed black;
     min-height: 130px;
     padding: 5px;
     max-width: 350px;
@@ -330,7 +327,7 @@ body.menu-open .plus-btn .r2 {
 
 
 .window-content form input::placeholder {
-    opacity: 0.2;
+    opacity: 0.45;
     letter-spacing: 1px;
 }
 
