@@ -359,6 +359,10 @@ body.menu-open .plus-btn .r2 {
     transition-delay: 0.5s;
 }
 
+.free-text {
+    margin-top: 10px;
+}
+
 .c2 {
     transform: translateX(-50%) translateY(-50%) rotate(45deg);
 }
@@ -434,4 +438,14 @@ body.menu-open .plus-btn .r2 {
         /* Firefox bug fix */
         transform: translateX(-100%);
     }
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-size: revert !important;
+    font-family: revert !important;
+    line-height: revert !important;
 }
