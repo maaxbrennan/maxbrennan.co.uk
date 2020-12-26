@@ -226,7 +226,7 @@ body.menu-open .plus-btn .r2 {
     background-color: #f0f0f0;
     display: flex;
     justify-content: flex-end;
-    align-items: end;
+    align-items: flex-end;
     padding: 3px;
 }
 
@@ -242,7 +242,7 @@ body.menu-open .plus-btn .r2 {
     border: 1px solid black;
     margin: 5px 15px;
     opacity: 1;
-    z-index: 100;
+    z-index: 1;
     background-color: #f0f0f0;
 
 }

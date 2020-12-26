@@ -3,7 +3,7 @@
         var settings = $.extend({
             horizontal: true,
             vertical: true,
-            speed: 100, // In pixels per second
+            speed: 100,
             container: $(this).parent(),
             bumpEdge: function () {}
         }, options);
@@ -83,7 +83,6 @@
                 move.down();
             }
 
-            // Make that shit responsive!
             $(window).resize(function () {
                 getSizes();
             });
