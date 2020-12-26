@@ -242,6 +242,9 @@ body.menu-open .plus-btn .r2 {
     border: 1px solid black;
     margin: 5px 15px;
     opacity: 1;
+    z-index: 100;
+    background-color: #f0f0f0;
+
 }
 
 .top-bar {
@@ -382,6 +385,18 @@ body.menu-open .plus-btn .r2 {
 
 .mw380 {
     max-width: 380px;
+}
+
+svg {
+    display: block;
+}
+
+.logo {
+    fill: #fff;
+}
+
+.marquee {
+    position: absolute;
 }
 
 
