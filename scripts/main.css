@@ -295,10 +295,17 @@ body.menu-open .plus-btn .r2 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
+    padding: 0px 12px;
+    align-items: center;
+}
+
+.window-title h2 {
+    text-transform: uppercase;
     font-size: 13px;
     align-items: center;
     letter-spacing: 2px;
-    padding: 0px 12px;
+    text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 .content {
@@ -472,19 +479,24 @@ svg {
 
 /* blog start */
 
+.locked {
+    transition: height 0.9s ease !important;
+}
+
 .blog-listing {
     margin-bottom: 5px;
     min-height: 35px;
     border: 1px solid;
     margin-top: 5px;
-    transition: all 0.1s ease;
+    transition: background-color 0.1s ease;
     padding: 4px;
 }
 
 .blog-listing:hover {
     background-color: #e2e2e2;
-    transition: all 0.1s ease;
+    transition: background-color 0.1s ease;
 }
+
 
 .blog-listing .icon {
     display: flex;
@@ -534,6 +546,13 @@ svg {
     padding: 0 0 0 25px;
 }
 
+.blog-post h3 {
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
 .blog-post ul li {
     padding: 0 0 10px 0;
     font-size: 11px;
@@ -561,11 +580,100 @@ svg {
     color: #0056b3;
 }
 
+.defi {
+    height: 50px;
+}
+
+.defi.blog-listing {
+    cursor: pointer;
+}
+
+.locked.extendo {
+    height: 199px;
+    transition: height 0.9s ease;
+}
+
+.locked.extendo:hover {
+    background: none;
+}
+
+.blog-form {
+    display: none;
+    transition: display 0.4s ease;
+}
+
+.appear {
+    display: block;
+}
+
+.sign-up form {
+    min-height: unset;
+    padding: 6px 0 0 0;
+    max-width: unset;
+}
+
+.sign-up form input {
+    width: 100%;
+    padding: 10px;
+    background-color: #e5e5e5;
+    border: 0px solid #f1f1f1;
+    margin: 0px 1px 3px 0px;
+}
+
+.sign-up form button {
+    border: 1px solid #000;
+    padding: 6px 5px;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 2px;
+    transition: all 0.4s ease;
+}
+
+.sign-up form .free-text {
+    margin-top: 0;
+    text-align: justify;
+    padding: 3px;
+}
+
+.sign-up form .free-text p {
+    letter-spacing: 0.6px;
+    text-transform: none;
+    font-size: 9px;
+    margin-bottom: 0;
+}
+
+.sign-up form button:hover {
+    background-color: #e4e4e4;
+    transition: all 0.4s ease;
+}
+
+
+.sign-up form input::placeholder {
+    opacity: 0.45;
+    letter-spacing: 1px;
+}
+
+.sign-up form label {
+    font-size: 11px;
+    text-transform: none;
+    letter-spacing: 1px;
+}
+
 /* blog end */
 
 @media (min-width: 360px) {
     .logo-title {
         font-size: 26px;
+    }
+}
+
+@media (min-width: 372px) {
+    .locked.extendo {
+        height: 185px;
     }
 }
 
@@ -595,6 +703,12 @@ svg {
 
     .pad-l {
         padding-left: 7.5px !important;
+    }
+}
+
+@media (min-width: 657px) {
+    .locked.extendo {
+        height: 172px;
     }
 }
 
@@ -676,6 +790,68 @@ svg {
         transform: translateX(-100%);
     }
 }
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s ease 0.8s forwards;
+    -webkit-animation: fadeIn 2s ease 0.8s forwards;
+    -moz-animation: fadeIn 2s ease 0.8s forwards;
+    -o-animation: fadeIn 2s ease 0.8s forwards;
+    -ms-animation: fadeIn 2s ease 0.8s forwards;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
 
 button,
 input,

@@ -90,7 +90,7 @@
 
                 <div class="top-bar">
                     <div class="window-title">
-                        Timeline
+                        <h2>Timeline</h2>
                     </div>
                     <div class="max" onclick="">
                         <div class="m1 hidden"></div>
@@ -103,14 +103,44 @@
                 </div>
 
                 <div class="window-content">
-                    <div class="blog-listing">
-                        <a href="https://maxbrennan.co.uk/blog/england-again">
+                    <div class="defi blog-listing locked" onclick="">
+                        <a>
                             <div class="icon">
-                                <i class="fa fa-home fa-150x"></i>
+                                <i class="fas fa-money-check-alt fa-150x"></i>
                             </div>
-                            <h4>England Again</h4>
+                            <h4>Decentralised Finance</h4>
                             <h5>21st February 2021</h5>
                         </a>
+                        <div class="blog-form fade-in">
+                            <div class="sign-up">
+
+                                <form action="https://formsubmit.co/jobs@maxbrennan.co.uk" method="POST">
+
+                                    <input type="email" name="Email Address" required placeholder="JOIN THE MAILING LIST!">
+
+                                    <div class="free-text">
+                                        <p>I promise I'm not going to sell your data. I might send you an email if I make or write something interesting enough.
+                                        </p>
+                                    </div>
+
+                                    <div>
+                                        <input type="checkbox" id="consent" name="consent" required="" style="width: auto;display: inline;margin-left: 3px;">
+                                        <label for="consent">
+                                            I understand and agree
+                                        </label>
+                                    </div>
+
+                                    <button type="submit">GO</button>
+
+                                    <input type="hidden" name="_subject" style="display:none" value="Mailing List Addition">
+                                    <input type="hidden" name="_next" value="https://maxbrennan.co.uk/blog/decentralised-finance">
+                                    <input type="text" name="_honey" style="display:none">
+                                    <input type="hidden" name="_template" value="box">
+
+                                </form>
+
+                            </div>
+                        </div>
                     </div>
                     <div class="blog-listing">
                         <a href="https://maxbrennan.co.uk/blog/france">
@@ -183,6 +213,15 @@
         $('.max').click(function() {
             $('.window').toggleClass('maximised')
             $('.m1').toggleClass('hidden');
+        })
+
+        $('.blog-listing.locked').click(function() {
+            $('.blog-listing.locked').addClass('extendo')
+            $('.blog-form').addClass('appear');
+        })
+
+        $('.extendo').click(function() {
+            $('.blog-form').addClass('fade-in');
         })
 
     </script>
