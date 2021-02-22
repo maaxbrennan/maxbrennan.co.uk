@@ -8,7 +8,7 @@ body {
 }
 
 body {
-    background: #F0F0F0;
+    background: #fff;
     height: 100%;
 }
 
@@ -305,7 +305,12 @@ body.menu-open .plus-btn .r2 {
     align-items: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin-bottom: 0;
+    font-weight: 400;
+    margin: 0;
+}
+
+.text-center * {
+    text-align: center;
 }
 
 .content {
