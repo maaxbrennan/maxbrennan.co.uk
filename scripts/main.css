@@ -247,14 +247,14 @@ body.menu-open .plus-btn .r2 {
     font-size: 1.5em;
 }
 
-.blog-listing a {
+.timeline-listing a {
     display: flex;
     width: 100%;
     text-decoration: none;
     color: #000;
 }
 
-.blog-listing a:hover {
+.timeline-listing a:hover {
     text-decoration: none;
 }
 
@@ -482,13 +482,13 @@ svg {
     display: none;
 }
 
-/* blog start */
+/* timeline start */
 
 .locked {
     transition: height 0.9s ease !important;
 }
 
-.blog-listing {
+.timeline-listing {
     margin-bottom: 5px;
     min-height: 35px;
     border: 1px solid;
@@ -497,13 +497,13 @@ svg {
     padding: 4px;
 }
 
-.blog-listing:hover {
+.timeline-listing:hover {
     background-color: #e2e2e2;
     transition: background-color 0.1s ease;
 }
 
 
-.blog-listing .icon {
+.timeline-listing .icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -514,7 +514,7 @@ svg {
     border: 1px solid #000;
 }
 
-.blog-listing h4 {
+.timeline-listing h4 {
     font-size: 13px;
     display: flex;
     justify-content: center;
@@ -526,14 +526,14 @@ svg {
     text-transform: lowercase;
 }
 
-.window-content.blog-post p {
+.window-content.timeline-post p {
     text-transform: none;
     letter-spacing: 0.6px;
     font-size: 11px;
     text-align: justify;
 }
 
-.window-content.blog-post {
+.window-content.timeline-post {
     overflow: scroll;
     max-height: calc(100% - 30px);
 }
@@ -546,33 +546,33 @@ svg {
     margin-bottom: 15px;
 }
 
-.blog-post ul {
+.timeline-post ul {
     list-style: circle;
     padding: 0 0 0 25px;
 }
 
-.blog-post h3 {
+.timeline-post h3 {
     font-size: 12px;
     letter-spacing: 0.6px;
     font-weight: bolder;
     margin-bottom: 1rem;
 }
 
-.blog-post ul li {
+.timeline-post ul li {
     padding: 0 0 10px 0;
     font-size: 11px;
     letter-spacing: 0.2px;
 }
 
-.blog-post ul li:last-of-type {
+.timeline-post ul li:last-of-type {
     padding: 0;
 }
 
-.window .blog-listing h5 {
+.window .timeline-listing h5 {
     display: none;
 }
 
-.blog-post.images img {
+.timeline-post.images img {
     margin-bottom: 15px;
 }
 
@@ -589,7 +589,7 @@ svg {
     height: 50px;
 }
 
-.defi.blog-listing {
+.defi.timeline-listing {
     cursor: pointer;
 }
 
@@ -602,7 +602,7 @@ svg {
     background: none;
 }
 
-.blog-form {
+.timeline-form {
     display: none;
     transition: display 0.4s ease;
 }
@@ -668,7 +668,7 @@ svg {
     letter-spacing: 1px;
 }
 
-/* blog end */
+/* timeline end */
 
 @media (min-width: 360px) {
     .logo-title {
@@ -683,7 +683,7 @@ svg {
 }
 
 @media (min-width: 480px) {
-    .window.maximised .blog-listing h5 {
+    .window.maximised .timeline-listing h5 {
         font-size: 13px;
         display: inherit;
         margin: 0;
@@ -739,11 +739,11 @@ svg {
         max-height: 600px;
     }
 
-    .blog-post ul li {
+    .timeline-post ul li {
         font-size: 12px;
     }
 
-    .window-content.blog-post p {
+    .window-content.timeline-post p {
         font-size: 12px;
     }
 
