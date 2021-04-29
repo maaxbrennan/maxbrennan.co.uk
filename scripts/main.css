@@ -750,6 +750,7 @@ svg {
         transition: all 0.2s ease;
         margin: 7px 2px;
         white-space: break-spaces;
+        text-decoration: none;
     }
 }
 
