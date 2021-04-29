@@ -680,10 +680,11 @@ svg {
 
 .cv-button {
     border: 1px solid black;
-    padding: 6px;
+    padding: 6px 4px;
     color: black;
     transition: all 0.2s ease;
-    margin: 7px;
+    margin: 7px 2px;
+    white-space: break-spaces;
 }
 
 /* CV BIT */
