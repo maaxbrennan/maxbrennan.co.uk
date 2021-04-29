@@ -675,7 +675,6 @@ svg {
     background-color: #000;
     transition: all 0.2s;
     color: white;
-    text-decoration: underline;
 }
 
 .cv-button {
