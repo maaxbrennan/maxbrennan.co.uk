@@ -672,7 +672,7 @@ svg {
 
 
 .cv-button:hover {
-    background-color: black;
+    background-color: #000;
     transition: all 0.2s;
     color: white;
     text-decoration: underline;
@@ -750,7 +750,7 @@ svg {
         transition: all 0.2s ease;
         margin: 7px 2px;
         white-space: break-spaces;
-        text-decoration: none;
+        text-decoration: none !important;
     }
 }
 
