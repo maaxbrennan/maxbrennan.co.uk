@@ -675,14 +675,15 @@ svg {
     background-color: black;
     transition: all 0.2s;
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .cv-button {
     padding: 6px 4px;
-    color: darkslateblue;
+    color: darkblue;
     transition: all 0.2s ease;
     margin: 7px 2px;
+    text-decoration: underline;
 }
 
 /* CV BIT */
