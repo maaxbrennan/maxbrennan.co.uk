@@ -670,6 +670,24 @@ svg {
 
 /* timeline end */
 
+
+.cv-button:hover {
+    background-color: black;
+    transition: all 0.2s;
+    color: white;
+    text-decoration: none;
+}
+
+.cv-button {
+    border: 1px solid black;
+    padding: 6px;
+    color: black;
+    transition: all 0.2s ease;
+    margin: 7px;
+}
+
+/* CV BIT */
+
 @media (min-width: 360px) {
     .logo-title {
         font-size: 26px;
