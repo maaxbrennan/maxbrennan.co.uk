@@ -685,6 +685,23 @@ svg {
     text-decoration: underline;
 }
 
+.bubbles {
+    padding: 15px 0px;
+    font-size: 12px;
+}
+
+.i-am p {
+    margin: ;
+    margin-bottom: 0px;
+}
+
+.bubbles a {
+    border: 1px solid #000;
+    padding: 9px;
+    margin-right: 10px;
+}
+
+
 /* CV BIT */
 
 @media (min-width: 360px) {
