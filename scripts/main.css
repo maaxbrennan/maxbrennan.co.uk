@@ -695,6 +695,11 @@ svg {
     margin-bottom: 0px;
 }
 
+.cv-area p,
+.cv-area * {
+    text-align: center !important;
+}
+
 .bubbles a {
     border: 1px solid #000;
     padding: 9px;
