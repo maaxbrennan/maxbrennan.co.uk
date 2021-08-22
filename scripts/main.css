@@ -671,20 +671,6 @@ svg {
 /* timeline end */
 
 
-.cv-button:hover {
-    background-color: #000;
-    transition: all 0.2s;
-    color: white;
-}
-
-.cv-button {
-    padding: 6px 4px;
-    color: darkblue;
-    transition: all 0.2s ease;
-    margin: 7px 2px;
-    text-decoration: underline;
-}
-
 .bubbles {
     padding: 15px 0px;
     font-size: 12px;
@@ -706,8 +692,27 @@ svg {
     margin-right: 10px;
 }
 
+.cv-buttons a {
+    font-size: 12px;
+    border: 1px solid black;
+    color: black;
+    padding: 8px;
+    margin: 6px;
+    display: block;
+    transition: all 0.2s;
+
+}
+
+.cv-buttons a:hover {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    transition: all 0.2s;
+}
+
 
 /* CV BIT */
+
 
 @media (min-width: 360px) {
     .logo-title {
@@ -734,6 +739,10 @@ svg {
         justify-content: flex-end;
         flex: 1;
     }
+
+    .cv-buttons a {
+        display: unset;
+    }
 }
 
 @media (min-width: 576px) {
@@ -756,24 +765,7 @@ svg {
     }
 }
 
-@media (min-width: 700px) {
-    .cv-button:hover {
-        background-color: black;
-        transition: all 0.2s;
-        color: white;
-        text-decoration: none;
-    }
 
-    .cv-button {
-        border: 1px solid black;
-        padding: 6px 4px;
-        color: black;
-        transition: all 0.2s ease;
-        margin: 7px 2px;
-        white-space: break-spaces;
-        text-decoration: none !important;
-    }
-}
 
 @media (min-width: 768px) {
     .window.fixed {
