@@ -175,8 +175,8 @@ body.menu-open .plus-btn .r2 {
 .menu ul li {
     font-family: "Helvetica Neue", Arial Black, sans-serif;
     font-weight: 500;
-    font-size: 22px;
-    color: white;
+    font-size: 18px;
+    color: #000;
     min-height: 45px;
     padding: 16px;
     text-align: center;
@@ -717,6 +717,10 @@ svg {
 @media (min-width: 360px) {
     .logo-title {
         font-size: 26px;
+    }
+
+    .menu ul li {
+        font-size: 22px;
     }
 }
 
