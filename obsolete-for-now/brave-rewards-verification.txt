@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: maxbrennan.co.uk
-Token: 9e999ea5e9e01d2fb85d3853f1c263f12645486c7116c9187963a46b3c7e5429
