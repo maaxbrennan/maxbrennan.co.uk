@@ -725,10 +725,6 @@ svg {
     .logo-title {
         font-size: 26px;
     }
-
-    .menu ul li {
-        font-size: 22px;
-    }
 }
 
 @media (min-width: 405px) {
