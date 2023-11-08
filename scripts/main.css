@@ -182,6 +182,7 @@ body.menu-open .plus-btn .r2 {
     text-align: center;
     list-style: none;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .menu ul li a {
@@ -218,6 +219,7 @@ body.menu-open .plus-btn .r2 {
     align-items: center;
     white-space: nowrap;
     font-family: "Helvetica Neue", Arial Black, sans-serif;
+    font-weight: 600;
 }
 
 .icons-section {
@@ -713,6 +715,11 @@ svg {
 
 /* CV BIT */
 
+@media (min-width: 280px) {
+    .menu ul li {
+        font-size: 17px;
+    }
+}
 
 @media (min-width: 360px) {
     .logo-title {
